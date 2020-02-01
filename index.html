@@ -271,54 +271,63 @@
           	<span class="clone">RSVP</span>
             <h2 class="mb-3">RSVP</h2>
           </div>
-        </div>
+        	</div>
         <div class="row justify-content-center">
         	<div class="col-md-7">
 				<script type="text/javascript">var submitted=false;</script>
 				<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='index.html';}"></iframe>
         		<form action="https://docs.google.com/forms/d/e/1FAIpQLSdMA5SE9WvXHewOrkv4BDkuSyh6f-FZLclsDBRw34YJ_TTomg/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;" class="rsvp-form ftco-animate">
 	    				<div class="">
-							<label>Nombre</label>
 		    				<div class="form-group">
 		    					<input type="text" name="entry.2005620554" class="form-control" placeholder="Nombre">
 							</div>
-							<label>Email</label>
 		    				<div class="form-group">
 		    					<input type="text" name="entry.1045781291" class="form-control" placeholder="Email">
 		    				</div>
 	    				</div>
-	    				<div class="">
+	    				<div class="Asistencia">
 	    					<div class="form-group">
 		    					<div class="form-field">
           					<div class="select-wrap">
 					  <div class="icon d-flex align-items-center justify-content-center"><span class="ion-ios-arrow-down"></span></div>
-					  <label>Asistencia</label>
                       <select name="entry.1166974658" id="" class="form-control">
+						<option name="entry.1166974658" value="">Asistencia</option>
                         <option name="entry.1166974658" value="0">No puedo ir. ¡Gracias por la invitación!</option>
                         <option name="entry.1166974658" value="1">¡Voy!</option>
                         <option name="entry.1166974658" value="2">Somos 2</option>
                       </select>
-                    </div>
-		              </div>
-		    				</div>
-						</div>
-					<div class="">
+                    		</div>
+								</div>
+		  					</div>
+	  					</div>
+					<div class="Menú">
 	    				<div class="form-group">
 		    				<div class="form-field">
           				<div class="select-wrap">
-					  <div class="icon d-flex align-items-center justify-content-center"><span class="ion-ios-arrow-down"></span></div>
-					  <label>Menú</label>
-                      <select multiple name="entry.839337160" id="" class="form-control">
+					  <!-- <div class="icon d-flex align-items-center justify-content-center"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="entry.839337160" id="" class="form-control">
+						<option name="entry.1166974658" value="">Seleccionar menú</option>
                         <option name="entry.839337160" value="1"><span>Normal</span></option>
                         <option name="entry.839337160" value="2"><span>Celíaco</span></option>
                         <option name="entry.839337160" value="3"><span>Vegetariano</span></option>
-                      </select>
-                    </div>
-		              </div>
-		    				</div>
-	    				</div>
+                      </select> -->
+						</div>
+							</div>
+						</div>
+						  <div class="form-check form-check">
+							<input class="form-check-input" type="checkbox" name="entry.839337160" id="Checkbox1" value="1">
+							<label class="form-check-label" for="Checkbox1">Normal</label>
+						  </div>
+						  <div class="form-check form-check">
+							<input class="form-check-input" type="checkbox" name="entry.839337160" id="Checkbox2" value="2">
+							<label class="form-check-label" for="Checkbox2">Celíaco</label>
+						  </div>
+						  <div class="form-check form-check">
+							<input class="form-check-input" type="checkbox" name="entry.839337160" id="Checkbox3" value="3">
+							<label class="form-check-label" for="Checkbox3">Vegetariano</label>
+						  </div>
+					</div>
 	    				<div class="">
-						<label>Mensaje</label>
 	    					<div class="form-group">
 		              			<input type="text" name="entry.530678537" id="" cols="30" rows="3" class="form-control" placeholder="Mensaje"></input>
 		            </div>
@@ -326,7 +335,7 @@
 		              <input type="submit" value="Enviar" class="btn btn-primary py-3 px-4">
 		            </div>
 	    				</div>
-	    			</form>
+	    		</form>
         	</div>
         </div>
     	</div>
